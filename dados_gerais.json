@@ -1,0 +1,223 @@
+{
+  "marcenaria": [
+    {
+      "data": "21/03/2026",
+      "nome": "[Estoque] MDF Branco",
+      "custo": 175.26,
+      "venda": 0.0,
+      "lucro": -175.26,
+      "func": 0.0
+    },
+    {
+      "data": "20/03/2026",
+      "nome": "Rack",
+      "custo": 476.49,
+      "venda": 1247.6,
+      "lucro": 771.11,
+      "func": 154.22
+    },
+    {
+      "data": "19/03/2026",
+      "nome": "[Estoque] Cola Contato",
+      "custo": 285.08,
+      "venda": 0.0,
+      "lucro": -285.08,
+      "func": 0.0
+    },
+    {
+      "data": "18/03/2026",
+      "nome": "Prateleira Cozinha",
+      "custo": 206.3,
+      "venda": 601.12,
+      "lucro": 394.82,
+      "func": 78.96
+    },
+    {
+      "data": "17/03/2026",
+      "nome": "[Estoque] MDF Branco",
+      "custo": 209.32,
+      "venda": 0.0,
+      "lucro": -209.32,
+      "func": 0.0
+    },
+    {
+      "data": "16/03/2026",
+      "nome": "Prateleira Cozinha",
+      "custo": 542.8,
+      "venda": 1568.06,
+      "lucro": 1025.26,
+      "func": 205.05
+    },
+    {
+      "data": "15/03/2026",
+      "nome": "[Estoque] Fita Borda",
+      "custo": 281.25,
+      "venda": 0.0,
+      "lucro": -281.25,
+      "func": 0.0
+    },
+    {
+      "data": "14/03/2026",
+      "nome": "Cômoda",
+      "custo": 345.37,
+      "venda": 1298.82,
+      "lucro": 953.45,
+      "func": 190.69
+    },
+    {
+      "data": "13/03/2026",
+      "nome": "[Estoque] Parafusos 4x40",
+      "custo": 82.03,
+      "venda": 0.0,
+      "lucro": -82.03,
+      "func": 0.0
+    },
+    {
+      "data": "12/03/2026",
+      "nome": "Prateleira Cozinha",
+      "custo": 629.15,
+      "venda": 2025.25,
+      "lucro": 1396.1,
+      "func": 279.22
+    }
+  ],
+  "casa": [
+    {
+      "data": "21/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Combustível",
+      "valor": 35.27
+    },
+    {
+      "data": "20/03/2026",
+      "tipo": "Variável",
+      "categoria": "Água",
+      "valor": 53.13
+    },
+    {
+      "data": "20/03/2026",
+      "tipo": "Variável",
+      "categoria": "Padaria",
+      "valor": 220.86
+    },
+    {
+      "data": "19/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Luz",
+      "valor": 27.76
+    },
+    {
+      "data": "18/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Internet",
+      "valor": 156.64
+    },
+    {
+      "data": "17/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Mercado",
+      "valor": 51.33
+    },
+    {
+      "data": "17/03/2026",
+      "tipo": "Variável",
+      "categoria": "Internet",
+      "valor": 230.47
+    },
+    {
+      "data": "16/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Restaurante",
+      "valor": 72.33
+    },
+    {
+      "data": "16/03/2026",
+      "tipo": "Variável",
+      "categoria": "Farmácia",
+      "valor": 134.88
+    },
+    {
+      "data": "15/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Água",
+      "valor": 229.25
+    },
+    {
+      "data": "14/03/2026",
+      "tipo": "Fixa",
+      "categoria": "Padaria",
+      "valor": 170.51
+    },
+    {
+      "data": "13/03/2026",
+      "tipo": "Variável",
+      "categoria": "Mercado",
+      "valor": 138.96
+    },
+    {
+      "data": "13/03/2026",
+      "tipo": "Variável",
+      "categoria": "Farmácia",
+      "valor": 248.46
+    },
+    {
+      "data": "12/03/2026",
+      "tipo": "Variável",
+      "categoria": "Internet",
+      "valor": 154.04
+    },
+    {
+      "data": "12/03/2026",
+      "tipo": "Variável",
+      "categoria": "Luz",
+      "valor": 45.33
+    }
+  ],
+  "boletos": [
+    {
+      "desc": "Seguro",
+      "valor": 837.92,
+      "vencimento": "22/03/2026"
+    },
+    {
+      "desc": "IPTU",
+      "valor": 641.16,
+      "vencimento": "21/03/2026"
+    },
+    {
+      "desc": "Parcela Carro",
+      "valor": 888.79,
+      "vencimento": "18/03/2026"
+    },
+    {
+      "desc": "Parcela Carro",
+      "valor": 259.5,
+      "vencimento": "16/03/2026"
+    },
+    {
+      "desc": "Parcela Carro",
+      "valor": 1015.65,
+      "vencimento": "13/03/2026"
+    }
+  ],
+  "sugestoes_marcenaria": [
+    "MDF",
+    "Parafusos",
+    "Fita de Borda",
+    "Cola",
+    "Corrediça",
+    "Puxador",
+    "Dobradiça"
+  ],
+  "sugestoes_casa": [
+    "Mercado",
+    "Combustível",
+    "Restaurante",
+    "Luz",
+    "Água",
+    "Internet",
+    "Consórcio",
+    "Cartão",
+    "padaria"
+  ]
+}

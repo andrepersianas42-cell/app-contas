@@ -1,0 +1,82 @@
+[INFO   ] [Logger      ] Record log in C:\Users\andre\.kivy\logs\kivy_26-05-10_2.txt
+[INFO   ] [deps        ] Successfully imported "kivy_deps.angle" 0.4.0
+[INFO   ] [deps        ] Successfully imported "kivy_deps.glew" 0.3.1
+[INFO   ] [deps        ] Successfully imported "kivy_deps.sdl2" 0.8.0
+[INFO   ] [Kivy        ] v2.3.1
+[INFO   ] [Kivy        ] Installed at "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\__init__.py"
+[INFO   ] [Python      ] v3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 64 bit (AMD64)]
+[INFO   ] [Python      ] Interpreter at "D:\gerenciamento de contas\venv\Scripts\python.exe"
+[INFO   ] [Logger      ] Purge log fired. Processing...
+[INFO   ] [Logger      ] Purge finished!
+[INFO   ] [Factory     ] 195 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Text        ] Provider: sdl2
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] GLEW initialization succeeded
+[INFO   ] [GL          ] Backend used <glew>
+[INFO   ] [GL          ] OpenGL version <b'4.6.0 NVIDIA 591.86'>
+[INFO   ] [GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[INFO   ] [GL          ] OpenGL renderer <b'NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2'>
+[INFO   ] [GL          ] OpenGL parsed version: 4, 6
+[INFO   ] [GL          ] Shading version <b'4.60 NVIDIA'>
+[INFO   ] [GL          ] Texture max size <32768>
+[INFO   ] [GL          ] Texture max units <32>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[DEBUG  ] [matplotlib data path] D:\gerenciamento de contas\venv\Lib\site-packages\matplotlib\mpl-data
+[DEBUG  ] CONFIGDIR=C:\Users\andre\.matplotlib
+[DEBUG  ] interactive is False
+[DEBUG  ] platform is win32
+[DEBUG  ] CACHEDIR=C:\Users\andre\.matplotlib
+[DEBUG  ] Using fontManager instance from C:\Users\andre\.matplotlib\fontlist-v390.json
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<kivy.uix.image.Image object at 0x0000023B419C7540>" was accessed, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<kivy.uix.image.Image object at 0x0000023B419C7540>" was accessed, it will be removed in a future version
+[INFO   ] [GL          ] NPOT texture support is available
+[INFO   ] [Base        ] Start application main loop
+[INFO   ] [Base        ] Leaving application in progress...
+ Traceback (most recent call last):
+   File "D:\gerenciamento de contas\main.py", line 812, in <module>
+     GerenciadorApp().run()
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\app.py", line 956, in run
+     runTouchApp()
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+     EventLoop.mainloop()
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\base.py", line 341, in mainloop
+     self.window.mainloop()
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\core\window\window_sdl2.py", line 786, in mainloop
+     self.dispatch('on_textinput', text)
+   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\core\window\__init__.py", line 155, in _on_window_textinput
+     return self.dispatch('on_textinput', text)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\uix\textinput.py", line 3045, in keyboard_on_textinput
+     self.insert_text(text, False)
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\uix\textinput.py", line 792, in insert_text
+     self._set_line_text(row, new_text)
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\uix\textinput.py", line 2156, in _set_line_text
+     self._lines[line_num] = text
+     ~~~~~~~~~~~^^^^^^^^^^
+   File "kivy\\properties.pyx", line 820, in kivy.properties.ObservableList.__setitem__
+   File "kivy\\properties.pyx", line 806, in kivy.properties.observable_list_dispatch
+   File "kivy\\properties.pyx", line 625, in kivy.properties.Property.dispatch
+   File "kivy\\properties.pyx", line 606, in kivy.properties.Property._dispatch
+   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+   File "kivy\\properties.pyx", line 1639, in kivy.properties.AliasProperty.trigger_change
+   File "kivy\\properties.pyx", line 1646, in kivy.properties.AliasProperty.trigger_change
+   File "kivy\\properties.pyx", line 1672, in kivy.properties.AliasProperty._dispatch
+   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+   File "kivy\\_event.pyx", line 1213, in kivy._event.EventObservers._dispatch
+   File "D:\gerenciamento de contas\main.py", line 81, in on_text
+     self.dropdown.open(self)
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\uix\dropdown.py", line 254, in open
+     self._win.add_widget(self)
+   File "D:\gerenciamento de contas\venv\Lib\site-packages\kivy\core\window\__init__.py", line 1536, in add_widget
+     raise WidgetException(
+ kivy.uix.widget.WidgetException: Cannot add <kivy.uix.dropdown.DropDown object at 0x0000023B41A5C6E0> to window, it already has a parent <kivy.core.window.window_sdl2.WindowSDL object at 0x0000023B18276200>
